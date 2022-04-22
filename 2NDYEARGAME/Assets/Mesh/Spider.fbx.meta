@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 5fdcabedd83edcb459effbf693c1bc59
+guid: 501de60ebaee54d419898be25fab450a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
+  - first:
+      74: 1493788427583655698
+    second: Armature|_Base
   - first:
       74: 4723146814002874508
     second: Armature|Attack
