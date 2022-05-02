@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: 0d36de53d38f01d4595eb930d5100997
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -2645021634625152684
+    second: Armature|Base
+  - first:
+      74: -9053157277748694861
+    second: Armature|BassicAttackVer1
+  - first:
+      74: 4118441123394648021
+    second: Armature|Screech
+  - first:
+      74: -6706815487853256094
+    second: Armature|Slam_Attack
+  - first:
+      74: -4274770991410265338
+    second: Armature|Walking
   externalObjects: {}
   materials:
     materialImportMode: 2
