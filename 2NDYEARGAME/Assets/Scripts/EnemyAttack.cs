@@ -51,7 +51,7 @@ public class EnemyAttack : MonoBehaviour
     {
         
         float currentDistance = Vector3.Distance(transform.position, GameManager.Instance.hero.position);
-        if (currentDistance <= navMeshAgent.stoppingDistance)
+        if (currentDistance <= navMeshAgent.stoppingDistance + 1)
         {
             isPlayerInRange = true;
             RotateTowards(GameManager.Instance.hero);

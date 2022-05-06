@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public bool AnimationIsPlaying;
     float noSpeed = 0f;
-    float normalSpeed = 1.5f;
+    float normalSpeed = 2f;
     void AnimationIsPlayingOn()
     {
         AnimationIsPlaying = true;
