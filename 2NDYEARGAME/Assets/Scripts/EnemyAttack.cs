@@ -11,11 +11,18 @@ public class EnemyAttack : MonoBehaviour
     public Transform MainChar;
     public UnityEngine.AI.NavMeshAgent agent;
 
+   
+    
+
+
+
+
 
     bool isPlayerInRange = false;
     public float timeBetweenAttack = 1f;
-    private float slamAttackCooldown = 30f;
+    private float slamAttackCooldown = 15f;
     private float nextSlamAttackCooldown = 0;
+    
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -27,6 +34,8 @@ public class EnemyAttack : MonoBehaviour
 
     IEnumerator TryAttack()
     {
+        float herodistance = Vector3.Distance(transform.position, GameManager.Instance.hero.position);
+       
         if (isPlayerInRange)
         {
             BasicAttack();
@@ -42,7 +51,7 @@ public class EnemyAttack : MonoBehaviour
         {
             agent.SetDestination(GameManager.Instance.hero.position);  
         }
-       
+     
         yield return null;
         StartCoroutine(TryAttack());
     }
@@ -84,9 +93,7 @@ public class EnemyAttack : MonoBehaviour
         transform.rotation = rotation;
         anim.Play("Slam_Attack");
     }
-
-
-
+   
     
 
 

@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public List<GameObject> spawnPoints;
     public GameObject ranger;
     public GameObject soldier;
-    public GameObject tanker;
+   
 
     public Transform hero;
 
@@ -89,11 +89,7 @@ public class GameManager : MonoBehaviour
         {
             newMonsterPrefab = soldier;
         }
-        else if (randomMonster == 2)
-        {
-            newMonsterPrefab = tanker;
-        }
-
+       
 
 
 
