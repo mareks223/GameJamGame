@@ -13,6 +13,10 @@ public class EnemyAttack : MonoBehaviour
     public float timeBetweenAttack = 1f;
     private float slamAttackCooldown = 15f;
     private float nextSlamAttackCooldown = 0;
+    public GameObject spikes;
+    public Transform spikesSpawnLocation;
+
+
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
@@ -72,4 +76,11 @@ public class EnemyAttack : MonoBehaviour
         transform.rotation = rotation;
         anim.Play("Slam_Attack");
     }
+    void CreateSpikes()
+    {
+        Instantiate(spikes, spikesSpawnLocation.position, spikesSpawnLocation.rotation);
+        
+    }
+
+
 }
