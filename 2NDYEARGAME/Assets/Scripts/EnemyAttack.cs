@@ -11,7 +11,7 @@ public class EnemyAttack : MonoBehaviour
     public UnityEngine.AI.NavMeshAgent agent;
     bool isPlayerInRange = false;
     public float timeBetweenAttack = 1f;
-    private float slamAttackCooldown = 15f;
+    private float slamAttackCooldown = 10f;
     private float nextSlamAttackCooldown = 0;
     public GameObject spikes;
     public Transform spikesSpawnLocation;
@@ -78,8 +78,7 @@ public class EnemyAttack : MonoBehaviour
     }
     void CreateSpikes()
     {
-        Instantiate(spikes, spikesSpawnLocation.position, spikesSpawnLocation.rotation);
-        
+        Instantiate(spikes, spikesSpawnLocation.position, spikesSpawnLocation.rotation);     
     }
 
 
