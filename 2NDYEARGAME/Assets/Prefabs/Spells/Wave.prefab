@@ -12,9 +12,15 @@ GameObject:
   - component: {fileID: 3598338795115978253}
   - component: {fileID: 3598338795115978250}
   - component: {fileID: 7336828877746813618}
+  - component: {fileID: 1577853335019744243}
+  - component: {fileID: 7583261427556116397}
+  - component: {fileID: 8712757958229635396}
+  - component: {fileID: 5734019532302056654}
+  - component: {fileID: 7828625421705830660}
+  - component: {fileID: 9008964887189023175}
   m_Layer: 0
   m_Name: Wave
-  m_TagString: Untagged
+  m_TagString: SpiderBossWave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,3 +135,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1717a0301b5c884680d4798e5b3c69d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WaveColliderOne: {fileID: 1577853335019744243}
+  WaveColliderTwo: {fileID: 7583261427556116397}
+  WaveColliderThree: {fileID: 8712757958229635396}
+  WaveColliderFour: {fileID: 5734019532302056654}
+--- !u!65 &1577853335019744243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598338795115978251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 2.5292363, y: 2.7626035, z: 2.6347272}
+  m_Center: {x: -0.12684308, y: 0.8813012, z: 0.018999292}
+--- !u!65 &7583261427556116397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598338795115978251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 3.852373, y: 3, z: 3.2907808}
+  m_Center: {x: -0.26083755, y: 1, z: 3.2691116}
+--- !u!65 &8712757958229635396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598338795115978251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 4.873746, y: 3, z: 3.3648164}
+  m_Center: {x: -0.24950714, y: 1, z: 6.897972}
+--- !u!65 &5734019532302056654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598338795115978251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 5.796314, y: 4.0579257, z: 3.9416153}
+  m_Center: {x: -0.33024588, y: 1.5289618, z: 10.937148}
+--- !u!54 &7828625421705830660
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598338795115978251}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!205 &9008964887189023175
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598338795115978251}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1

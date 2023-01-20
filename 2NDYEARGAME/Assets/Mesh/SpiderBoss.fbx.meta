@@ -18,6 +18,9 @@ ModelImporter:
   - first:
       74: -4274770991410265338
     second: Armature|Walking
+  - first:
+      74: -8005144896466351333
+    second: Armature|ANIHILATIONSLAM
   externalObjects:
   - first:
       type: UnityEngine:Material

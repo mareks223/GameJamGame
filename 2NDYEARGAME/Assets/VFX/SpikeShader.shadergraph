@@ -29,6 +29,9 @@
         },
         {
             "m_Id": "98e8d7bbba7d4082ab14b41644d1d8b4"
+        },
+        {
+            "m_Id": "32fc95db206548da949b8655f5e56325"
         }
     ],
     "m_GroupDatas": [],
@@ -109,6 +112,9 @@
             },
             {
                 "m_Id": "544ee2e6c6c449468fc42d3f688de8fb"
+            },
+            {
+                "m_Id": "32fc95db206548da949b8655f5e56325"
             }
         ]
     },
@@ -362,6 +368,39 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "32fc95db206548da949b8655f5e56325",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Emission",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "96cc2b193b024b1fa8b7cd3f5e5bad97"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Emission"
+}
+
+{
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "331b70e03e1047a39df1b5d54246a17c",
@@ -478,10 +517,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1017.9999389648438,
-            "y": 95.99999237060547,
-            "width": 207.99998474121095,
-            "height": 103.99999237060547
+            "x": -1015.0,
+            "y": 96.0,
+            "width": 208.00001525878907,
+            "height": 104.00000762939453
         }
     },
     "m_Slots": [
@@ -534,6 +573,36 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
+    "m_ObjectId": "96cc2b193b024b1fa8b7cd3f5e5bad97",
+    "m_Id": 0,
+    "m_DisplayName": "Emission",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Emission",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_ColorMode": 1,
+    "m_DefaultColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    }
 }
 
 {
@@ -646,8 +715,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -132.0,
-            "y": 239.00003051757813,
+            "x": -281.0,
+            "y": 95.99996948242188,
             "width": 132.0,
             "height": 34.0
         }

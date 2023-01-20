@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - PlayerWeapon
+  - SpiderBossWave
+  - AcidProjectile
+  - SlamSpiderWave
+  - BossBasicAttack
+  - BasicSpiderAttack
+  - PlayerSkill1
+  - Anihilation
   layers:
   - Default
   - TransparentFX
@@ -12,9 +21,9 @@ TagManager:
   - Water
   - UI
   - Post-Processing
+  - ground
   - 
-  - 
-  - 
+  - Boss
   - 
   - 
   - 

@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e9ad047af7ed4444aa16b0b910b43147
+  - enabled: 0
+    path: Assets/Scenes/DifficulityScreen.unity
+    guid: 6afff6d32bfcc3242836519d7f17ae3f
+  - enabled: 1
+    path: Assets/Scenes/ForestScene.unity
+    guid: 97abbba62ca3b97439db32e110145681
+  - enabled: 1
+    path: Assets/Scenes/GAME OVER SCENE.unity
+    guid: d2d3f4499ef4aad47a41487bc5e9d5b2
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: db50788270c94964c8677ea688249199
   m_configObjects: {}
